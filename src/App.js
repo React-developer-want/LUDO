@@ -7,6 +7,7 @@ const App = () => {
   return (
     <>
       <Routes>
+        <>Hello world</>
         <Route index element={<Starter/>} />
         <Route path='/ludo' element={<Ludo/>} />
       </Routes> 
